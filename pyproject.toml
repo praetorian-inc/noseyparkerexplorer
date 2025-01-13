@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noseyparker-explorer"
+authors = [
+    {name = "Brad Larsen", email = "bradford.larsen@praetorian.com"},
+]
+
+description = "Interactive results explorer and annotator for Nosey Parker"
+readme = "README.md"
+
+version = "0.23.0-dev"
+
+requires-python = ">=3.10"
+
+dependencies = [
+    "aiosqlite>=0.20.0",
+    "duckdb>=1.1.3",
+    "filelock>=3.16.1",
+    "rich>=13.9.4",
+    "textual>=1.0.0",
+]
+
+license = {file = "LICENSE"}
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: Apache Software License",
+
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+
+    "Environment :: Console",
+
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Developers",
+
+    "Topic :: Security",
+]
+
+[project.scripts]
+noseyparker-explorer = "noseyparker_explorer.main:main"
+
+[project.urls]
+Repository = "https://github.com/praetorian-inc/noseyparkerexplorer"
+Issues = "https://github.com/praetorian-inc/noseyparkerexplorer/issues"
+Changelog = "https://github.com/praetorian-inc/noseyparkerexplorer/blob/main/CHANGELOG.md"
+
+
+[dependency-groups]
+dev = [
+    "autoflake>=2.3.1",
+    "black>=24.10.0",
+    "flake8>=7.1.1",
+    "ipython>=8.31.0",
+    "isort>=5.13.2",
+    "pip-licenses>=5.0.0",
+    "py-spy>=0.4.0",
+    "pytest>=8.3.4",
+    "python-lsp-server>=1.12.0",
+    "shiv>=1.0.8",
+    "textual-dev>=1.7.0",
+    "types-requests>=2.32.0.20241016",
+]
+
+ci = [
+    "flake8>=7.1.1",
+    "mypy>=1.14.1",
+    "pytest>=8.3.4",
+    "shiv>=1.0.8",
+    "types-requests>=2.32.0.20241016",
+]

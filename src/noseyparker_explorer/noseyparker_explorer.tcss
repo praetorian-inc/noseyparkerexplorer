@@ -1,0 +1,130 @@
+/* vim: set filetype=css : */
+
+HeaderIcon {
+    visibility: hidden;
+}
+
+#filters {
+    dock: left;
+    width: auto;
+    max-width: 40%;
+    margin-right: 1;
+}
+
+#data {
+    width: auto;
+    width: auto;
+}
+
+
+#findings {
+    height: 2fr;
+    width: 100%;
+}
+
+#details-switcher {
+    height: 3fr;
+}
+
+#details {
+    margin-top: 1;
+    height: 3fr;
+}
+
+
+/* the following are cribbed from default Tree style to make the datatable cursor dimmer when unfocused */
+DataTable > .datatable--cursor {
+    background: $secondary-darken-2;
+}
+
+DataTable:focus > .datatable--cursor {
+    background: $secondary;
+    text-style: bold;
+}
+
+
+FacetsTree {
+    width: auto;
+}
+
+FindingsTable {
+    width: auto;
+}
+
+FindingDetailsList > ListItem {
+    /* color: $text; */
+    height: auto;
+    overflow: hidden hidden;
+
+    padding-top: 1;
+    padding-left: 1;
+    padding-right: 1;
+    padding-bottom: 1;
+
+    /* margin-top: 1; */
+    /* margin-left: 2; */
+    /* margin-right: 2; */
+    margin-bottom: 1;
+}
+
+FindingDetailsList {
+    background: $surface;
+
+    & > ListItem {
+        color: $foreground;
+        height: auto;
+        overflow: hidden hidden;
+        width: 1fr;
+
+        &.-hovered {
+            background: $block-hover-background;
+        }
+
+        &.-highlight {
+            color: $block-cursor-blurred-foreground;
+            background: $block-cursor-blurred-background;
+            text-style: $block-cursor-blurred-text-style;
+        }
+    }
+}
+
+
+HelpScreen {
+    /* align: center middle; */
+    /* opacity: 40%; */
+    /* background: $background-lighten-1; */
+
+    align-horizontal: center;
+}
+
+HelpScreen #container {
+    max-width: 140;
+    /* padding-left: 1; */
+    /* padding-right: 1; */
+}
+
+HelpScreen MarkdownTableOfContents {
+    width: 40;
+    /* max-width: 40; */
+}
+
+HelpScreen #dismiss {
+    align-horizontal: center;
+    width: 100%;
+}
+
+
+CommentScreen {
+    align: center middle;
+}
+
+CommentScreen > Input {
+    width: 80%;
+}
+
+
+MatchSourceScreen {
+    width: auto;
+    height: auto;
+    align: center middle;
+}
