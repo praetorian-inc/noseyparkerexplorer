@@ -17,7 +17,7 @@ When focusing on a particular finding, up to 10 occurrences of it are shown in t
 ### Faceted search to rapidly focus on particular types of findings
 ![Faceted search with just 2 rules selected](docs/img/faceted-search-1.png)
 The filters pane provides faceted search of the results, similar to what is provided in online shopping sites.
-It visibility can be toggled by pressing `F7`.
+Its visibility can be toggled by pressing `F7`.
 
 ### Full source file view
 ![Full source file visible](docs/img/source-view.png)
