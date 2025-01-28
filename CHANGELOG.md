@@ -10,9 +10,9 @@ In general, you want to use matching versions of the tools.
 So, for example, use v0.23 of Nosey Parker Explorer when working with datastores produced by v0.23.0 of Nosey Parker.
 
 
-## Unreleased
+## [v0.23.0](https://github.com/praetorian-inc/noseyparkerexplorer/releases/v0.23.0) (2025-01-28)
 
-**This version of Nosey Parker Explorer works with datastores created by Nosey Parker v0.23.*.**
+**This version of Nosey Parker Explorer works with datastores created by [Nosey Parker v0.23](https://github.com/praetorian-inc/noseyparker/releases/v0.23.0)**
 
 This is the initial public release of Nosey Parker Explorer.
 It is a terminal UI (TUI) application that provides a simple interactive filtering and annotation mechanism for results from [Nosey Parker](https://github.com/praetorian-inc/noseyparker).
