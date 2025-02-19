@@ -10,22 +10,22 @@ It works best with a terminal of at least 160x50.
 ## Features
 
 ### Three main panes
-![Main screen with findings table, details pane, and filters pane](docs/img/main-screen.png)
+![Main screen with findings table, details pane, and filters pane](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/main-screen.png?raw=true)
 Its main screen has three panes: a filters pane on the left, a findings pane on top, and a findings details pane on bottom.
 When focusing on a particular finding, up to 10 occurrences of it are shown in the details window.
 
 ### Faceted search to rapidly focus on particular types of findings
-![Faceted search with just 2 rules selected](docs/img/faceted-search-1.png)
+![Faceted search with just 2 rules selected](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/faceted-search-1.png?raw=true)
 The filters pane provides faceted search of the results, similar to what is provided in online shopping sites.
 Its visibility can be toggled by pressing `F7`.
 
 ### Full source file view
-![Full source file visible](docs/img/source-view.png)
+![Full source file visible](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/source-view.png?raw=true)
 The full source for a match can be viewed from by pressing `o` when a match is selected in the details pane.
 
 ### Status annotation and commenting
-![The findings table showing some annotations sets](docs/img/hidden-facets-annotations.png)
-![A comment being set](docs/img/commenting.png)
+![The findings table showing some annotations sets](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/hidden-facets-annotations.png?raw=true)
+![A comment being set](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/commenting.png?raw=true)
 In the findings pane, you can assign a status to a finding (either `accept` or `reject`).
 You can also assign a freeform comment if you wish.
 Any status or comment you assign will be saved to the Nosey Parker datastore you have opened.
@@ -33,7 +33,7 @@ Any status or comment you assign will be saved to the Nosey Parker datastore you
 Note that Nosey Parker's own `report` command understands these annotations; it can produce a static report of findings with a particular status using its `--finding-status={accept,reject,mixed,null}` option.
 
 ### Integrated help
-![The integrated help screen](docs/img/integrated-help.png)
+![The integrated help screen](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/integrated-help.png?raw=true)
 Integrated help can be accessed by pressing `?`.
 
 

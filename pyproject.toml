@@ -23,8 +23,6 @@ dependencies = [
     "textual>=1.0.0",
 ]
 
-license = {file = "LICENSE"}
-
 classifiers = [
     "Development Status :: 4 - Beta",
     "License :: OSI Approved :: Apache Software License",
@@ -76,3 +74,7 @@ ci = [
     "shiv>=1.0.8",
     "types-requests>=2.32.0.20241016",
 ]
+
+[tool.setuptools]
+# Work around bug in uv/setuptools: https://github.com/astral-sh/uv/issues/9513
+license-files = []
