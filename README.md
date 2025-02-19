@@ -42,7 +42,15 @@ Integrated help can be accessed by pressing `?`.
 Nosey Parker Explorer is a Python program that uses a few non-standard-library dependencies.
 It requires Python 3.10 or newer.
 
-### Option 1: Use a prepackaged Python zipapp from a release
+### Option 1: Install from PyPI
+
+Nosey Parker Explorer is [published on PyPI](https://pypi.org/project/noseyparker-explorer/):
+```
+$ pip install noseyparker-explorer
+$ noseyparker-explorer -d <DATASTORE_DIR>
+```
+
+### Option 2: Use a prepackaged Python zipapp from a release
 
 Prepackaged Python [zipapps](https://docs.python.org/3/library/zipapp.html) (produced by [`shiv`](https://github.com/linkedin/shiv)) are provided for Linux and macOS for each release.
 This installation option is simplest: there is no need to set up a venv or `pip install` anything; all you need is a Python 3.10+ interpreter.
@@ -56,23 +64,23 @@ Finally, to run, point it at a Nosey Parker datastore directory (which should co
 $ python3 noseyparker-explorer -d <DATASTORE_DIR>
 ```
 
-### Option 2: Install from source
+### Option 3: Install from source
 
 Use [uv](https://docs.astral.sh/uv):
 ```
 $ uv sync
-$ uv run noseyparker-explorer -d <DATASTORE>
+$ uv run noseyparker-explorer -d <DATASTORE_DIR>
 ```
 
 NOTE: the versions of Python available in `apt` in Ubuntu 20.04 include a version of sqlite3 that is too old for Nosey Parker Explorer.
 
 
-### Option 3: Install from source, developer version
+### Option 4: Install from source, developer version
 
 Use [uv](https://docs.astral.sh/uv):
 ```
 $ uv sync --group dev
-$ uv run noseyparker-explorer -d <DATASTORE>
+$ uv run noseyparker-explorer -d <DATASTORE_DIR>
 ```
 
 NOTE: the versions of Python available in `apt` in Ubuntu 20.04 include a version of sqlite3 that is too old for Nosey Parker Explorer.
