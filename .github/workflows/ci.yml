@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+  schedule:
+  # Force a run every day at 0817 UTC
+  - cron: '08 17 * * *'
+
 env:
   UV_LOCKED: "1"
 
