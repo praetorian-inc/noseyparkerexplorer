@@ -1,3 +1,2 @@
-global-include *.css
 global-include *.tcss
 global-include py.typed
