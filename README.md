@@ -10,22 +10,22 @@ It works best with a terminal of at least 160x50.
 ## Features
 
 ### Three main panes
-![Main screen with findings table, details pane, and filters pane](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/main-screen.png?raw=true)
+![Main screen with findings table, details pane, and filters pane](https://github.com/praetorian-inc/noseyparker-explorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/main-screen.png?raw=true)
 Its main screen has three panes: a filters pane on the left, a findings pane on top, and a findings details pane on bottom.
 When focusing on a particular finding, up to 10 occurrences of it are shown in the details window.
 
 ### Faceted search to rapidly focus on particular types of findings
-![Faceted search with just 2 rules selected](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/faceted-search-1.png?raw=true)
+![Faceted search with just 2 rules selected](https://github.com/praetorian-inc/noseyparker-explorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/faceted-search-1.png?raw=true)
 The filters pane provides faceted search of the results, similar to what is provided in online shopping sites.
 Its visibility can be toggled by pressing `F7`.
 
 ### Full source file view
-![Full source file visible](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/source-view.png?raw=true)
+![Full source file visible](https://github.com/praetorian-inc/noseyparker-explorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/source-view.png?raw=true)
 The full source for a match can be viewed from by pressing `o` when a match is selected in the details pane.
 
 ### Status annotation and commenting
-![The findings table showing some annotations sets](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/hidden-facets-annotations.png?raw=true)
-![A comment being set](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/commenting.png?raw=true)
+![The findings table showing some annotations sets](https://github.com/praetorian-inc/noseyparker-explorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/hidden-facets-annotations.png?raw=true)
+![A comment being set](https://github.com/praetorian-inc/noseyparker-explorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/commenting.png?raw=true)
 In the findings pane, you can assign a status to a finding (either `accept` or `reject`).
 You can also assign a freeform comment if you wish.
 Any status or comment you assign will be saved to the Nosey Parker datastore you have opened.
@@ -33,7 +33,7 @@ Any status or comment you assign will be saved to the Nosey Parker datastore you
 Note that Nosey Parker's own `report` command understands these annotations; it can produce a static report of findings with a particular status using its `--finding-status={accept,reject,mixed,null}` option.
 
 ### Integrated help
-![The integrated help screen](https://github.com/praetorian-inc/noseyparkerexplorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/integrated-help.png?raw=true)
+![The integrated help screen](https://github.com/praetorian-inc/noseyparker-explorer/blob/32e9133600c79eee53cd9000e37b71792e555fdd/docs/img/integrated-help.png?raw=true)
 Integrated help can be accessed by pressing `?`.
 
 
@@ -55,7 +55,7 @@ $ noseyparker-explorer -d <DATASTORE_DIR>
 Prepackaged Python [zipapps](https://docs.python.org/3/library/zipapp.html) (produced by [`shiv`](https://github.com/linkedin/shiv)) are provided for Linux and macOS for each release.
 This installation option is simplest: there is no need to set up a venv or `pip install` anything; all you need is a Python 3.10+ interpreter.
 
-First, download the appropriate artifact for your Python version, OS, and CPU architecture from the [latest release](https://github.com/praetorian-inc/noseyparkerexplorer/releases/latest).
+First, download the appropriate artifact for your Python version, OS, and CPU architecture from the [latest release](https://github.com/praetorian-inc/noseyparker-explorer/releases/latest).
 Extract that zip file; within is a single file named `noseyparker-explorer`.
 (This single `noseyparker-explorer` file is a Python zipapp.)
 
@@ -127,10 +127,10 @@ Other terminals may use other modifier keys.
 
 ## Contributing
 
-Feedback, bug reports, and feature requests are welcome; please [open an issue](https://github.com/praetorian-inc/noseyparkerexplorer/issues/new/choose).
+Feedback, bug reports, and feature requests are welcome; please [open an issue](https://github.com/praetorian-inc/noseyparker-explorer/issues/new/choose).
 
 Pull requests are also welcome.
-If you are considering a substantial change (more than just a bugfix or small addition), consider [starting a discussion](https://github.com/praetorian-inc/noseyparkerexplorer/discussions/new/choose) first.
+If you are considering a substantial change (more than just a bugfix or small addition), consider [starting a discussion](https://github.com/praetorian-inc/noseyparker-explorer/discussions/new/choose) first.
 
 This project has a number of [pre-commit](https://pre-commit.com/) hooks enabled that you are encouraged to use.
 To install them in your local repo, make sure you have `pre-commit` installed and run:
